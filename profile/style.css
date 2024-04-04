@@ -1,6 +1,14 @@
 body{
     background-color: rgb(38, 103, 159);
 }
+@media  (min-width:300px) and (max-width:600px){
+  body{
+    position: absolute;
+    margin-left:50vw;
+
+  
+}
+}
 .box{
     
     
@@ -219,7 +227,7 @@ margin-top: 150px;
 } 
 @media  (min-width:300px) and (max-width:600px){
   .skills{
-  height: 30vh;
+  height: 39vh;
   width:50vw;
   
   }
@@ -238,6 +246,13 @@ ul{
     font-size:25px;
     
     
+}
+li{
+  text-shadow: 2px 1px black;
+  margin-bottom: 5px;
+}
+li:hover{
+  transform: scale(1.1);
 }
 h1{
     text-align: center;
