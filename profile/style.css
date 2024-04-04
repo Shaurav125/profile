@@ -5,13 +5,9 @@ body{
   body{
     position: absolute;
     margin-left:50vw;
-
-  
 }
 }
 .box{
-    
-    
     border: solid transparent 2px;
     height:35vh;
     width: 100%;
@@ -21,7 +17,6 @@ body{
     align-items: center;
     background:linear-gradient(135deg,rgba(255, 255, 255, 0.195),rgba(118, 89, 89, 0.775));
     background-image: radial-gradient(#132b8a05,#1a1a8943,#0d326029);
-
 } 
 @media  (min-width:300px) and (max-width:600px){
   .box{
@@ -30,8 +25,6 @@ justify-content: center;
   
 }
 }
-
-
 .mit{
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     color:rgb(243, 243, 243);
@@ -41,7 +34,6 @@ justify-content: center;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 2s;
-    
     
     .mit{
         position: absolute;
