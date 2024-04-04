@@ -4,7 +4,7 @@ body{
 @media  (min-width:300px) and (max-width:600px){
   body{
     position: absolute;
-    margin-left:50vw;
+    margin-left:20vw;
 }
 }
 .box{
@@ -470,7 +470,7 @@ body {
   display:block;
   position:absolute;
   color:rgb(111, 109, 201);
-  top:20px;
+  top:15px;
   bottom: 2px;
   left:0;
   right:0;
