@@ -16,7 +16,7 @@ body{
     justify-content: center;
     align-items: center;
     background:linear-gradient(135deg,rgba(255, 255, 255, 0.558),rgb(118, 89, 89));
-    background-image: radial-gradient(#132b8a9a,#1a1a8943,#0d326029);
+    background-image: radial-gradient(#132b8abf,#1a1a8943,#0d326029);
 } 
 @media  (min-width:200px) and (max-width:600px){
   .box{
