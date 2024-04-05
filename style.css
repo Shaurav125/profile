@@ -15,8 +15,8 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(135deg,rgba(255, 255, 255, 0.558),rgb(118, 89, 89));
-    background-image: radial-gradient(#132b8a9a,#1a1a8943,#0d326029);
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.195),rgba(118, 89, 89, 0.775));
+    background-image: radial-gradient(#132b8a05,#1a1a8943,#0d326029);
 } 
 @media  (min-width:200px) and (max-width:600px){
   .box{
@@ -111,13 +111,14 @@ gap:2vw
 } 
 @media  (min-width:300px) and (max-width:600px){
   .intro{
-    background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.136));
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.023));
     width:110vw;
     height: 85vh;
     display: flex;
     justify-content: center;
     margin-left: 40vw;
-   
+    background:linear-gradient(135deg,rgba(255, 255, 255, 0.099),rgba(255, 255, 255, 0.038));
+box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
   }
   
 }
@@ -222,7 +223,6 @@ margin-top: 150px;
   height:40vh;
   width:85vw;
   margin-left:55vw;
-  
   
   }
   
@@ -364,13 +364,11 @@ p9{
 @media (min-width:300px) and (max-width:600px){
     .two{
         flex-wrap:wrap;
-        background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.36)); 
+        background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.158)); 
 
 padding: 35px;
 width:120vw;
 margin-left:40vw;
-ackground:linear-gradient(135deg,rgba(255, 255, 255, 0.396),rgba(255, 255, 255, 0.697));
-box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
     }
     
 }
@@ -521,4 +519,3 @@ body {
     }
   }
 }
-
