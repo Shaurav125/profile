@@ -504,7 +504,7 @@ body {
   }
   @media(min-width:200px) and (max-width:600px){
     .console-container{
-     width:100vw;
+     width:110vw;
     }
   }
 }
