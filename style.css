@@ -15,7 +15,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
-    background:linear-gradient(135deg,rgba(255, 255, 255, 0.195),rgba(118, 89, 89, 0.775));
+   background:linear-gradient(135deg,rgba(255, 255, 255, 0.396),rgba(255, 255, 255, 0.697));
     background-image: radial-gradient(#132b8a05,#1a1a8943,#0d326029);
 } 
 @media  (min-width:200px) and (max-width:600px){
@@ -223,7 +223,7 @@ margin-top: 150px;
   height:40vh;
   width:85vw;
   margin-left:55vw;
-  background:linear-gradient(135deg,rgba(255, 255, 255, 0.237),rgba(255, 255, 255, 0.155));
+ background:linear-gradient(135deg,rgba(255, 255, 255, 0.396),rgba(255, 255, 255, 0.697));
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
   
   }
