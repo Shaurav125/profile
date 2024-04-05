@@ -366,7 +366,7 @@ p9{
 @media (min-width:300px) and (max-width:600px){
     .two{
         flex-wrap:wrap;
-        background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.158)); 
+       
 
 padding: 35px;
 width:120vw;
