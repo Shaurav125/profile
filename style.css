@@ -1,11 +1,11 @@
 body{
     background-color: rgb(38, 103, 159);
 }
-@media  (min-width:300px) and (max-width:600px){
-  body{
-    position: absolute;
-    margin-left:20vw;
-}
+@media  (min-width:200px) and (max-width:600px){
+  * {
+   margin:0;
+   padding:0;
+} 
 }
 .box{
     border: solid transparent 2px;
@@ -18,9 +18,9 @@ body{
     background:linear-gradient(135deg,rgba(255, 255, 255, 0.195),rgba(118, 89, 89, 0.775));
     background-image: radial-gradient(#132b8a05,#1a1a8943,#0d326029);
 } 
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:200px) and (max-width:600px){
   .box{
-   width:100%;
+   width:110vw;
 justify-content: center;
   
 }
@@ -105,13 +105,14 @@ align-items: center;
 background:linear-gradient(135deg,rgba(255, 255, 255, 0.099),rgba(255, 255, 255, 0.038));
 box-shadow: 0 8px 32px 0 rgb(0, 0, 0); 
 margin-top: 120px;
+gap:2vw
 
 
 } 
 @media  (min-width:300px) and (max-width:600px){
   .intro{
     background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.023));
-    width:80VW;
+    width:100vw;
     height: 80vh;
     
   }
@@ -162,7 +163,7 @@ margin-top: 100px;
     transform: translateX(55px); 
       
 }
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:200px) and (max-width:600px){
   .hello{
     font-size:38px;
   display:ruby;
@@ -187,12 +188,13 @@ margin-right:100px;
    text-shadow: 2px 1px 1px rgb(0, 0, 0)
    
 }
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:200px) and (max-width:600px){
   .intro P1{
     overflow: none;
     font-size:14px;
     margin-left:5cqi;
     text-wrap:pretty;
+    width:100vw;
     
    
   
@@ -219,8 +221,8 @@ margin-top: 150px;
 } 
 @media  (min-width:300px) and (max-width:600px){
   .skills{
-  height: 39vh;
-  width:50vw;
+  height:40vh;
+  width:85vw;
   
   }
   
@@ -256,6 +258,16 @@ h1{
    padding:2px;
    text-shadow: 1px 1px rgb(1, 10, 15);
    margin-top: 150px;
+}
+.h1:hover{
+  transform: scale(1.2);
+  background-color: black;
+}
+@media (min-width:200px) and (max-width:600px){
+h1{
+width:100vw;
+padding: 10px;
+}
 }
 #img1{
     height: 100px;
@@ -304,12 +316,13 @@ border: solid;}
 }
 
 
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:200px) and (max-width:600px){
     .int{
         flex-wrap:wrap;
         width:100%;
         box-sizing: border-box;
 padding: 25px;
+width:95vw;
 
     }
     
@@ -350,6 +363,7 @@ p9{
         background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.158)); 
 box-sizing: border-box;
 padding: 25px;
+width:95vw;
     }
     
 }
@@ -357,7 +371,7 @@ padding: 25px;
 
 .about{   
     border: solid transparent 2px;
-    width:78vw;
+    width:90%;
     height:30vh;
     margin: auto;
     background-color:rgba(0, 0, 0, 0.568);
@@ -365,6 +379,7 @@ padding: 25px;
     display: flex;
     justify-content: center;
     align-items: center;
+    box-sizing: border-box;
     padding: 15px;
     margin-top: 148px;
 }
@@ -379,16 +394,15 @@ padding: 25px;
     text-shadow: 1px 1px;
     text-transform: capitalize;
 }
-@media (min-width:300px) and (max-width:600px){
+@media (min-width:200px) and (max-width:600px){
   .about{
-
+width:90vw;
+height:45vh;
+padding: 15px;
   
 }
 }
-.h1:hover{
-    transform: scale(1.2);
-    background-color: black;
-}
+
 h3{
     color:rgb(255, 255, 255);
     font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
@@ -408,7 +422,7 @@ p1{
       .about{
         font-size:small;
         box-sizing: border-box;  
-        z-index: 1;
+        
       }  
     }
 }
@@ -484,8 +498,13 @@ body {
   left:20px;
   padding: 25px;
 }
-@media(min-width:300px) and (max-width:600px){
+@media(min-width:200px) and (max-width:600px){
   .console-underscore{
     margin-right: 39%;
+  }
+  @media(min-width:200px) and (max-width:600px){
+    .console-container{
+     width:100vw;
+    }
   }
 }
