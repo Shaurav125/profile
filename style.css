@@ -218,12 +218,12 @@ box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
 text-shadow: 1px 1px rgb(1, 10, 15);
 margin-top: 150px;
 } 
-@media  (min-width:300px) and (max-width:600px){
+@media  (min-width:200px) and (max-width:600px){
   .skills{
   height:40vh;
   width:85vw;
   margin-left:55vw;
-  background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
+ 
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
   
   }
