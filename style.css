@@ -34,7 +34,7 @@ justify-content: center;
     animation-duration: 2s;
     animation-timing-function: linear;
     animation-iteration-count: 2s;
-    
+
     .mit{
         position: absolute;
         top: 50%;
@@ -405,7 +405,6 @@ height:55vh;
 margin-left:50vw;
 padding-top:100px;
 padding-bottom:100px;
-
 
   
 }
