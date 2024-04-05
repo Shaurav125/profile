@@ -3,8 +3,8 @@ body{
 }
 @media  (min-width:200px) and (max-width:600px){
   * {
-   margin:0;
-   padding:0;
+   margin:0px;
+   padding:0px;
 } 
 }
 .box{
@@ -20,7 +20,7 @@ body{
 } 
 @media  (min-width:200px) and (max-width:600px){
   .box{
-   width:110vw;
+   width:105vw;
 justify-content: center;
   
 }
@@ -168,7 +168,7 @@ margin-top: 100px;
     font-size:38px;
   display:ruby;
   position:absolute;
-  top:23rem;
+  top:21rem;
   right:35%
   
 
@@ -223,6 +223,7 @@ margin-top: 150px;
   .skills{
   height:40vh;
   width:85vw;
+  margin-left: 50px;
   
   }
   
@@ -265,7 +266,7 @@ h1{
 }
 @media (min-width:200px) and (max-width:600px){
 h1{
-width:100vw;
+width:105vw;
 padding: 10px;
 }
 }
@@ -323,6 +324,9 @@ border: solid;}
         box-sizing: border-box;
 padding: 25px;
 width:95vw;
+margin-left: 50px;
+gap:8vh;
+
 
     }
     
@@ -341,7 +345,7 @@ text-transform: capitalize;
 .two{
     display: flex;
     justify-content:space-between;
-    gap:3.5vh;
+    gap:8vh;
      backdrop-filter: blur(20%); 
 -webkit-backdrop-filter: blur(100px); 
      background:linear-gradient(135deg,rgba(255, 255, 255, 0.304),rgba(255, 255, 255, 0.132));  
@@ -364,6 +368,7 @@ p9{
 box-sizing: border-box;
 padding: 25px;
 width:95vw;
+margin-left:50px;
     }
     
 }
@@ -380,7 +385,7 @@ width:95vw;
     justify-content: center;
     align-items: center;
     box-sizing: border-box;
-    padding: 15px;
+    padding:20px;
     margin-top: 148px;
 }
 
@@ -396,9 +401,11 @@ width:95vw;
 }
 @media (min-width:200px) and (max-width:600px){
   .about{
+  padding:25px;
 width:90vw;
-height:45vh;
-padding: 15px;
+height:50vh;
+margin-left:40px;
+
   
 }
 }
@@ -415,6 +422,7 @@ h3:hover{
     color: rgb(255, 255, 255);
     
 }
+
 p1{
     color: rgb(253, 252, 252);
     text-shadow: 1px 1px rgb(1, 10, 15);
@@ -428,7 +436,7 @@ p1{
 }
 .footer{
     border: solid transparent 4px;
-    width:100%;
+    width:100vw;
     height:25vh;
     margin:auto;
     border-radius: 10px;
@@ -503,8 +511,8 @@ body {
     margin-right: 39%;
   }
   @media(min-width:200px) and (max-width:600px){
-    .console-container{
-     width:110vw;
+    .footer{
+     width:105vw;
     }
   }
 }
