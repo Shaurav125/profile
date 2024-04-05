@@ -322,7 +322,7 @@ border: solid;}
         box-sizing: border-box;
 padding: 25px;
 width:120vw;
-margin-left:50vw;
+margin-left:40vw;
 gap:10vh;
 
 
@@ -366,7 +366,7 @@ p9{
 
 padding: 35px;
 width:120vw;
-margin-left:45vw;
+margin-left:40vw;
     }
     
 }
@@ -403,8 +403,8 @@ margin-left:45vw;
 width:100vw;
 height:55vh;
 margin-left:50vw;
-padding-top:20px;
-padding-bottom:20px;
+padding-top:100px;
+padding-bottom:100px;
 
 
   
