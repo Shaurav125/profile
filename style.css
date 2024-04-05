@@ -223,7 +223,7 @@ margin-top: 150px;
   height:40vh;
   width:85vw;
   margin-left:55vw;
-  background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0.273));
+  background:linear-gradient(135deg,rgba(255, 255, 255, 0),rgba(255, 255, 255, 0));
   box-shadow: 0 8px 32px 0 rgb(0, 0, 0);
   
   }
